@@ -34,11 +34,11 @@
     "ZM"
    ],
    "free": {
-    "version": 1,
-    "size": 14918493,
-    "sha256": "23eb5c6635894fb58b3cb0650141197e9f7814c34ce339d054de2e5093185115",
+    "version": 2,
+    "size": 8026411,
+    "sha256": "c08c4f7f6056b4d7c95c5a67aad594ff5e21bb7434eafa1577b93b86b3a60369",
     "tales": 57,
-    "file": "continent-af-free-v1.zip"
+    "file": "continent-af-free-v2.zip"
    }
   },
   "as": {
@@ -75,11 +75,11 @@
     "YE"
    ],
    "free": {
-    "version": 1,
-    "size": 14125616,
-    "sha256": "dd24219d6857424c293cdfadab63b2c36bbcef06274117bacb84ba8114dab293",
+    "version": 2,
+    "size": 7573047,
+    "sha256": "1329d3b82eae7cab14f74a3d5b71d960edd05abcb85057216b8dfce7b3839d5c",
     "tales": 92,
-    "file": "continent-as-free-v1.zip"
+    "file": "continent-as-free-v2.zip"
    }
   },
   "eu": {
@@ -122,11 +122,11 @@
     "UA"
    ],
    "free": {
-    "version": 2,
-    "size": 106294323,
-    "sha256": "932d4981cf6530b02ddd63911a4b289e09ba7f9359afb67c849579240ca8af29",
+    "version": 3,
+    "size": 94657359,
+    "sha256": "6a5a16f7fd58a828436f3f340960141cd3487981fdc06b05338bab157eae0215",
     "tales": 259,
-    "file": "continent-eu-free-v2.zip"
+    "file": "continent-eu-free-v3.zip"
    }
   },
   "na": {
@@ -149,11 +149,11 @@
     "US"
    ],
    "free": {
-    "version": 1,
-    "size": 8348377,
-    "sha256": "945d7f9ba7d5d4defd8ef6e7ccc66ce2d0732e4c152efce6f491c664d8e981d3",
+    "version": 2,
+    "size": 4245411,
+    "sha256": "748fe62c71b853147de397cf0d84b17451565065f61a5dfaf1c85ad0014056b9",
     "tales": 42,
-    "file": "continent-na-free-v1.zip"
+    "file": "continent-na-free-v2.zip"
    }
   },
   "oc": {
@@ -168,11 +168,11 @@
     "GU"
    ],
    "free": {
-    "version": 1,
-    "size": 2361412,
-    "sha256": "174da6265aab29261ee6f18756c80cb04c9bfa4d7aca040c6302f344ef05e5c2",
+    "version": 2,
+    "size": 1276310,
+    "sha256": "c2fe11b7fa2d3d28fe27e8454114b1fab23253e64516007183b98ba88fdcea11",
     "tales": 8,
-    "file": "continent-oc-free-v1.zip"
+    "file": "continent-oc-free-v2.zip"
    }
   },
   "sa": {
@@ -194,11 +194,11 @@
     "VE"
    ],
    "free": {
-    "version": 1,
-    "size": 3001082,
-    "sha256": "05be8c142e38fd1dc0ecc9c54e390bfc63871adcedc4566b2296e2b351f44c31",
+    "version": 2,
+    "size": 1524145,
+    "sha256": "d15da08859baf355eddb6e503b0cc5ac5fec621b58bc4f1df2c6c91680fb3f6c",
     "tales": 24,
-    "file": "continent-sa-free-v1.zip"
+    "file": "continent-sa-free-v2.zip"
    }
   }
  },
@@ -232,12 +232,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_am",
-    "version": 1,
+    "version": 2,
     "tales": 24,
     "tiers": {
      "lite": {
-      "size": 426622,
-      "sha256": "22b0ad769d8aad938536bfff3900b2f5987c8067cba70a7f9785417639aaa442"
+      "size": 244950,
+      "sha256": "6f0142dac6807ccdae0af391e6628aaf53648f4cd0ca29654b4cdd0c8507c789"
      }
     }
    }
@@ -257,12 +257,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_at",
-    "version": 1,
+    "version": 2,
     "tales": 7,
     "tiers": {
      "lite": {
-      "size": 1052076,
-      "sha256": "7d2094c269639ea705965d531cd5bd7d24b21e69bf185c2ce0b43426d3650b31"
+      "size": 506180,
+      "sha256": "3fbbb26ab5132438b270113cf50a15d0457fb36b803ac8c15caa40953f017287"
      }
     }
    }
@@ -275,12 +275,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_au",
-    "version": 1,
+    "version": 2,
     "tales": 23,
     "tiers": {
      "lite": {
-      "size": 1312352,
-      "sha256": "c4e5772475ddac7c845a01f29f88851f04998b276f776d18e9c3d355c1d65b47"
+      "size": 830470,
+      "sha256": "5025ac047443963dacb166fa2db5db458ad8130bf7ee613e75880a163fcc5e62"
      }
     }
    }
@@ -293,12 +293,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_be",
-    "version": 1,
+    "version": 2,
     "tales": 49,
     "tiers": {
      "lite": {
-      "size": 1410971,
-      "sha256": "a7a9fe0252e4aac76e3b2cbb3c80183a92400078d73a81d0592251e8adeffbf5"
+      "size": 782123,
+      "sha256": "e4efeee6896ff0a24f7484113b9459f886e816c3805406875bf054a96d973b65"
      }
     }
    }
@@ -325,12 +325,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_br",
-    "version": 1,
+    "version": 2,
     "tales": 28,
     "tiers": {
      "lite": {
-      "size": 401209,
-      "sha256": "e0e36870f4a3bd0b54c691059b75caf50e3e960facfa94438a05c55630e9420b"
+      "size": 234918,
+      "sha256": "9849b93a5777df38bc60b3a12b9e4aa6f762041355e13be93f310eff0c62a347"
      }
     }
    }
@@ -343,12 +343,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ca",
-    "version": 1,
+    "version": 2,
     "tales": 33,
     "tiers": {
      "lite": {
-      "size": 1531564,
-      "sha256": "50d4287f58729819202c914b9ebca2fd73f6dff92b57a557615ca45477d83bdb"
+      "size": 793560,
+      "sha256": "63950f495eedd16d49d3fe34c34d23a5111e065a573baf7f76c250f41a2f8541"
      }
     }
    }
@@ -368,12 +368,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_cg",
-    "version": 1,
+    "version": 2,
     "tales": 11,
     "tiers": {
      "lite": {
-      "size": 1066264,
-      "sha256": "33eeb628cc8c9b04ea749da58ae9f25c4be00ed3a8a27ca3d499c0f8eb52868f"
+      "size": 509318,
+      "sha256": "c507dc40927636c3cf7af0006ee932ef8cce7b88b698b9425bcd1aec5a51f4db"
      }
     }
    }
@@ -386,12 +386,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ch",
-    "version": 1,
+    "version": 2,
     "tales": 18,
     "tiers": {
      "lite": {
-      "size": 1496743,
-      "sha256": "41cb66e6204b65d7981d31088f1e6adbb1186fc5034690ead59ac5f547298880"
+      "size": 756207,
+      "sha256": "622cf3337488108db67f877183de1d010c8b559f84de3c28539e70d9dafb85fb"
      }
     }
    }
@@ -411,12 +411,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_cm",
-    "version": 1,
+    "version": 2,
     "tales": 7,
     "tiers": {
      "lite": {
-      "size": 1149110,
-      "sha256": "3a72e0a2e42e74cb7ccf2e646087ffb8456e474100205d62fc416943086c9736"
+      "size": 569467,
+      "sha256": "e654ffed6c7986638719201c4d3957568bf678a742433c90944bad0657958d16"
      }
     }
    }
@@ -429,12 +429,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_cn",
-    "version": 1,
+    "version": 2,
     "tales": 26,
     "tiers": {
      "lite": {
-      "size": 1164118,
-      "sha256": "d7a4767834ce29238c5c4b674ad5356bb5701584701f8e47beb1a430484b8384"
+      "size": 602360,
+      "sha256": "4add3f1542d26daad9cd7e18d54d88458df07f8e29d9b1dcfdd1757ec8053e31"
      }
     }
    }
@@ -454,12 +454,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_cu",
-    "version": 1,
+    "version": 2,
     "tales": 7,
     "tiers": {
      "lite": {
-      "size": 1224670,
-      "sha256": "1b01bcd84d4db6fcfd0303231cc1f808c6ca704af8730b90901ca6a684722ee1"
+      "size": 605510,
+      "sha256": "edec7e5bff26ed47a632c2691e458719886a514b457d09a26ab77a3d1fa26cce"
      }
     }
    }
@@ -486,12 +486,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_de",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 19876002,
-      "sha256": "6e39a06e3bf63cfbd9a2667fa03b278d9eafbc0786342f261fc45c9e2e2b094d"
+      "size": 9270204,
+      "sha256": "e1f61e8afc4bfbd63fe8ca0c9bcc04a4a4c819c008e79feee2464d7d578dd6ea"
      }
     }
    }
@@ -504,12 +504,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_dk",
-    "version": 1,
+    "version": 2,
     "tales": 38,
     "tiers": {
      "lite": {
-      "size": 4559852,
-      "sha256": "0f796261e1e50765235c8baae6062fc4b720faaf4768f49fca942bad2339f696"
+      "size": 2662595,
+      "sha256": "cd177e71a5a59e434023bb6f2061ca25beb7e2c4583d98274cd946ce1cd3fc69"
      }
     }
    }
@@ -536,12 +536,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_eg",
-    "version": 1,
+    "version": 2,
     "tales": 3,
     "tiers": {
      "lite": {
-      "size": 706912,
-      "sha256": "e9bb0405c59e957fe1819e6d9bfc75776c94cd3c10304a14f865f69b6fe8ea73"
+      "size": 402465,
+      "sha256": "8dc45b775f3bf3c50b1c2ea6b6ef8121c4bbfb0b512096c7f55219cf2a8b8867"
      }
     }
    }
@@ -554,12 +554,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_es",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1384368,
-      "sha256": "ee2f88fa7c34dbf4bbed0a1227476c6e280b287648bff21745dc7c7358168056"
+      "size": 947892,
+      "sha256": "f13ba1c1e9579fa1431a2ab53b50f8095b19f9f3c4ffd872cef46cb6272c05fe"
      }
     }
    }
@@ -572,12 +572,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_fi",
-    "version": 1,
+    "version": 2,
     "tales": 2,
     "tiers": {
      "lite": {
-      "size": 453769,
-      "sha256": "9e0f094791d544e2061c35fd386c165bec3505deea411c50ac27fc976f321ae5"
+      "size": 339092,
+      "sha256": "f14f3618d73aea3ac858ba98ddf20d668663e03f67f048bd07f5d627735e3b55"
      }
     }
    }
@@ -597,12 +597,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_fr",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 3924925,
-      "sha256": "e5426e8da178509aac999a35b8b72c934482a885cada4c72f67468f9c98d5a28"
+      "size": 3124439,
+      "sha256": "b97d9e740d6f9833f2935def2fe4bcbefa9327a410d78960aa841704ef44340f"
      }
     }
    }
@@ -622,12 +622,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_gb",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1506923,
-      "sha256": "42352cee1184e2683b82771cedaf095f3460ae4227a0a8da88eb481b7860bef4"
+      "size": 1026068,
+      "sha256": "8713372f101a76c90c9a11d4f4184fc87df42c5f41122dc7bcf13644b716bc49"
      }
     }
    }
@@ -647,12 +647,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ge",
-    "version": 1,
+    "version": 2,
     "tales": 42,
     "tiers": {
      "lite": {
-      "size": 465094,
-      "sha256": "3eb18c128351aebd079eec15b13b1c1997c2ac62810026c639162556cab0d6ea"
+      "size": 286917,
+      "sha256": "bca9fe4b62a090a79a92a24a6fbb404fff26ead1ccb13cef579257ea286ec4a7"
      }
     }
    }
@@ -665,12 +665,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_gh",
-    "version": 1,
+    "version": 2,
     "tales": 17,
     "tiers": {
      "lite": {
-      "size": 1311053,
-      "sha256": "3541bbe6b46f956dc86ae1e073ff61553b9671239197e4e754ee05b3d602e22b"
+      "size": 657711,
+      "sha256": "0d27d8c3280339ab64efebf2870b29e6837aeea65d2ec2eb29cd6aff8ee95697"
      }
     }
    }
@@ -683,12 +683,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_gl",
-    "version": 1,
+    "version": 2,
     "tales": 7,
     "tiers": {
      "lite": {
-      "size": 1011844,
-      "sha256": "4dd64bb0363b458b9369dc59fe782b792cfb4c79413e46f8911f9cf3d8cf9c52"
+      "size": 506740,
+      "sha256": "e32725cf7891fde3f092d775e5c952b0d636260cbee918d9309d5aff9abfba34"
      }
     }
    }
@@ -701,12 +701,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_gr",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 14673934,
-      "sha256": "6f99d92db17b942be55766f2e0a41f6cb85cef5ef721ea796f699b57c178e5d8"
+      "size": 6712790,
+      "sha256": "daf613639069d3fac484f1fcf98f8dce60a8199df10001ce902487068b7a9920"
      }
     }
    }
@@ -761,12 +761,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_hu",
-    "version": 1,
+    "version": 2,
     "tales": 2,
     "tiers": {
      "lite": {
-      "size": 455910,
-      "sha256": "35afeddb79aaf2285db2e3ca5bd14fdcb89d65324bef33a54768c06b25f6e4c8"
+      "size": 398839,
+      "sha256": "81e1cdc7e914f0484e0d4188f8525b6331fd63796dd9f3655c2a7d6969c3e0a5"
      }
     }
    }
@@ -779,12 +779,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ie",
-    "version": 1,
+    "version": 2,
     "tales": 6,
     "tiers": {
      "lite": {
-      "size": 1123612,
-      "sha256": "db667260e987c632d906be6bc6088e748db600dfcefa4885a7f666fc47db6c04"
+      "size": 898245,
+      "sha256": "e3c276286d9ac25bb2c19f169b9d45cbe9a7bf24b7416df7e3a0ddcf9088c650"
      }
     }
    }
@@ -797,12 +797,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_im",
-    "version": 1,
+    "version": 2,
     "tales": 34,
     "tiers": {
      "lite": {
-      "size": 1264128,
-      "sha256": "0da2f846736b6f14465d9afc461b47265e17c7bc2537443f5b9c55f6cb470de5"
+      "size": 659968,
+      "sha256": "362a88825c4bb322bf31e7c07fe2ff62032bb8684226cf498be09fd2746e2619"
      }
     }
    }
@@ -815,12 +815,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_in",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1724480,
-      "sha256": "06fa729cf470e4977080e7b4225d9cdc201965c88fd97b5094ee5dd2737f5ce6"
+      "size": 1544102,
+      "sha256": "5f2c4f7a30c24976a51b82bc0781371353d97f18c72165acabdae40f0ed11f6d"
      }
     }
    }
@@ -833,12 +833,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_iq",
-    "version": 1,
+    "version": 2,
     "tales": 10,
     "tiers": {
      "lite": {
-      "size": 1008567,
-      "sha256": "c694c6d655a2b18f0bcc1c2a781bf0c8ada02cfe924cbf205c0b45f970ca84f6"
+      "size": 494628,
+      "sha256": "b41d8dc729513f4afe6cd48c476153ee675f19ca33bababcf0d49515c548a15c"
      }
     }
    }
@@ -851,12 +851,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ir",
-    "version": 1,
+    "version": 2,
     "tales": 9,
     "tiers": {
      "lite": {
-      "size": 1042394,
-      "sha256": "2f158a52b9646c2d2b6678b862625860277501037953a6cab800d34164bab9e4"
+      "size": 702374,
+      "sha256": "a555f57ca554b99289eb13b77d04c9dd10e8a50478081475c1ff20a729086ae5"
      }
     }
    }
@@ -869,12 +869,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_is",
-    "version": 1,
+    "version": 2,
     "tales": 3,
     "tiers": {
      "lite": {
-      "size": 602688,
-      "sha256": "cf63bd43e803bc0050d2449b0925f8ca0f6884926a187b5b304137c17c78b6e9"
+      "size": 645540,
+      "sha256": "987c104a1087d58d97ad5282cd1dc913a9a80a994d660aefb242a793204848c9"
      }
     }
    }
@@ -887,12 +887,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_it",
-    "version": 1,
+    "version": 2,
     "tales": 15,
     "tiers": {
      "lite": {
-      "size": 1226478,
-      "sha256": "4e577ab2ea59a2d5f55e38f8ab94e7b64e6952ba112f526def77408a2c5b6779"
+      "size": 789168,
+      "sha256": "b23265c758d9e37a1eb4e84b8cc9fbcb3d742d322559ced19a1bf433d77b92c9"
      }
     }
    }
@@ -905,12 +905,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_jm",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1293848,
-      "sha256": "246c376822f572fdd9263813ec404f1959675dd9fe080d5eeee1282a1b5c4c96"
+      "size": 695100,
+      "sha256": "f804f3cb1742ea7e59d3de1e5af3fb6990d1f207b17a8d3e4dc0a4d9e7026bd4"
      }
     }
    }
@@ -923,12 +923,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_jp",
-    "version": 1,
+    "version": 2,
     "tales": 8,
     "tiers": {
      "lite": {
-      "size": 1033115,
-      "sha256": "97a3057704535fd7b941c0fa7e1a66eb32bb0a39db63477cdda67e38eb1de4db"
+      "size": 660534,
+      "sha256": "0d28c201a3cc773fb88ad43603193dc620dff7783b6f75590e052a91b3750825"
      }
     }
    }
@@ -955,12 +955,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_kr",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1318418,
-      "sha256": "95b6de0f149faf2b5a91764803d58d4dd092fe2f7acf4d6ee5f8427453e011fc"
+      "size": 717962,
+      "sha256": "c081e000aa2253086a1d6db310285bc16d8a1b5ceed206c4b8cbe45c583c33af"
      }
     }
    }
@@ -973,12 +973,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_kz",
-    "version": 1,
+    "version": 2,
     "tales": 2,
     "tiers": {
      "lite": {
-      "size": 140327,
-      "sha256": "43cc226c57433a58fd56956faa2d770ca5d2812bb1e1ede3d39bc7124cc70e9e"
+      "size": 72152,
+      "sha256": "aea69fa959580c46a65ae5122c9e041628463949a4ad0626c7d263def6fe3b07"
      }
     }
    }
@@ -991,12 +991,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_la",
-    "version": 1,
+    "version": 2,
     "tales": 37,
     "tiers": {
      "lite": {
-      "size": 1362918,
-      "sha256": "bcc9e94c118c884a1e2591cbed5585b2db1e8bbfad954c13d68ae984f0d34a63"
+      "size": 697857,
+      "sha256": "cc51704b897805f20e5d2df8dec8e68b6c52f8fcfed20da086fe4bd5842d3780"
      }
     }
    }
@@ -1009,12 +1009,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_lk",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1559868,
-      "sha256": "3d040e7ca37c765533509b138ede18f92dd4934e16749fd0589eda0a069c1e0a"
+      "size": 855678,
+      "sha256": "ebf5d7f97e11d429e8e3847c91c97a253f3756ae61698cf265e3986a5f261acd"
      }
     }
    }
@@ -1041,12 +1041,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_mm",
-    "version": 1,
+    "version": 2,
     "tales": 11,
     "tiers": {
      "lite": {
-      "size": 316857,
-      "sha256": "d11cadd6e4eb8405c6c48469bb2d50b0898fbe2cbb2b6722ca7d29fe9d628b9a"
+      "size": 170811,
+      "sha256": "ce30e4e8fbc1f3a24850733f776d56d1455d4833529431de8c629e084da44623"
      }
     }
    }
@@ -1066,12 +1066,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_mx",
-    "version": 1,
+    "version": 2,
     "tales": 12,
     "tiers": {
      "lite": {
-      "size": 842250,
-      "sha256": "fede57eac497d583e0d7514f231855358a5e9da4952e72d33ddd0f68ca2a63df"
+      "size": 421437,
+      "sha256": "ede7827bcfde5d751bf868c3dcd109f3ea7555f88e7da819d47e787c07ffba1f"
      }
     }
    }
@@ -1084,12 +1084,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_my",
-    "version": 1,
+    "version": 2,
     "tales": 21,
     "tiers": {
      "lite": {
-      "size": 386147,
-      "sha256": "6eec88ba4d4fae4f7f8662d301e349f5bd4f58be27b7cc4f6c0b0c49870bcde4"
+      "size": 214390,
+      "sha256": "cb0ad2f5606c0cce98d028f137ee3d5289f060d65d8efc0b5a7be77c327df387"
      }
     }
    }
@@ -1116,12 +1116,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ng",
-    "version": 1,
+    "version": 2,
     "tales": 21,
     "tiers": {
      "lite": {
-      "size": 1250563,
-      "sha256": "5b208375776cebe629b0ad15099391129504ed5311ab6b19b99e32268e033b90"
+      "size": 637493,
+      "sha256": "9cb9f7a2453356faeb46eafa001da066371286704c1f765ec32af2cfb35e43df"
      }
     }
    }
@@ -1134,12 +1134,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_nl",
-    "version": 1,
+    "version": 2,
     "tales": 18,
     "tiers": {
      "lite": {
-      "size": 1435816,
-      "sha256": "b722e4e270437ae04d4ab7c5b46c7050b2b9815f3a86508cca6c445ece5f8fab"
+      "size": 745832,
+      "sha256": "29d7e99e8d01e16525d1fbdcf7ead67d94ae46511165e3e598ef17a473a35b6e"
      }
     }
    }
@@ -1152,12 +1152,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_no",
-    "version": 1,
+    "version": 2,
     "tales": 9,
     "tiers": {
      "lite": {
-      "size": 1141005,
-      "sha256": "2944db63ecb1ceb412d57ebc94033bf9f02241cd904d598a202e09b478ce3551"
+      "size": 569778,
+      "sha256": "670dcef4957eee46b1ce98806aa23a999de494e38146fb39e7df780c087273d4"
      }
     }
    }
@@ -1177,12 +1177,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ph",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1403113,
-      "sha256": "d4d6b6b88428bdd7908c629734c22c7745149b8595ba0bc391dc619e66dfbf53"
+      "size": 770826,
+      "sha256": "454b564b3efd0a54d07d1e7de5d10ad59de204bf2c57a60c66f62c2c73c3e88b"
      }
     }
    }
@@ -1195,12 +1195,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_pk",
-    "version": 1,
+    "version": 2,
     "tales": 16,
     "tiers": {
      "lite": {
-      "size": 1423761,
-      "sha256": "57978b05927a240430991e13a105ead9dad5918c2667b341890c0e39ec63a028"
+      "size": 717972,
+      "sha256": "c19bd4c4cac848770c212237fb9933e6fd3a16a6e925b6fc80870ba365132682"
      }
     }
    }
@@ -1213,12 +1213,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_pl",
-    "version": 1,
+    "version": 2,
     "tales": 4,
     "tiers": {
      "lite": {
-      "size": 805683,
-      "sha256": "e292f26e9f8635177df5eb134f89a8cdb34df724cbe12ae821f97c87d6d5f263"
+      "size": 380891,
+      "sha256": "93b79660aeb1af86f3709a4762854af6b58537033bb33492dbcc22fded6c4eae"
      }
     }
    }
@@ -1231,12 +1231,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_pr",
-    "version": 1,
+    "version": 2,
     "tales": 2,
     "tiers": {
      "lite": {
-      "size": 363085,
-      "sha256": "e26fbfa149cada33cd8f8c2e0a96ad036c299ee5b018c058c360e18ff3e5f73b"
+      "size": 168594,
+      "sha256": "04f349773d8282983dd1c69d0cccd4b3dd6c2491330141c5f1a9a3a70944e068"
      }
     }
    }
@@ -1249,12 +1249,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_pt",
-    "version": 1,
+    "version": 2,
     "tales": 40,
     "tiers": {
      "lite": {
-      "size": 1297875,
-      "sha256": "1a68fbc37097c2af8a5235b68bd8c331492c43f65729e4462582ad0a6700261d"
+      "size": 1127266,
+      "sha256": "42542c854740cb4b9033001da8dab4e8ee9d78997f3bd0b642f96f0be0875205"
      }
     }
    }
@@ -1274,12 +1274,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ro",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1260383,
-      "sha256": "aa24dd0a9cfc072ad5454f9ce65f430db9db765a10e7370b9d4bc0bb04091cf3"
+      "size": 666058,
+      "sha256": "1c360b6aeaafb46af5b32d782eba4256d0f56b975574c780f2576764b2a33b22"
      }
     }
    }
@@ -1292,12 +1292,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_rs",
-    "version": 1,
+    "version": 2,
     "tales": 22,
     "tiers": {
      "lite": {
-      "size": 1337123,
-      "sha256": "3665d05ffa5e6c0f8e35a2d498d759e827d5a45df7d31bbda734e554e3f19e48"
+      "size": 904515,
+      "sha256": "c4bb2351674f5dca91607351c7555db4131af7dd4d94e0ac5e5b19a7e2bef0a7"
      }
     }
    }
@@ -1310,12 +1310,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ru",
-    "version": 1,
+    "version": 2,
     "tales": 26,
     "tiers": {
      "lite": {
-      "size": 1482138,
-      "sha256": "9a20a002611fc604d30ed7d2448d4c7c13c56fe298494d930e82c4753c569204"
+      "size": 2140323,
+      "sha256": "9e186e0da0f45a6c7c8bdec94354d092892bd7f39638aa85c1207be036ea15e6"
      }
     }
    }
@@ -1335,12 +1335,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_se",
-    "version": 1,
+    "version": 2,
     "tales": 1,
     "tiers": {
      "lite": {
-      "size": 255084,
-      "sha256": "530eceafb879b95f38466ffd7e4b23f90c1892868b2bb1a9d0184e50a6a99e19"
+      "size": 130596,
+      "sha256": "89fa88b7407004ef4596e3e71772830c79bc1809a8b70f413cf3c36891b1e9c1"
      }
     }
    }
@@ -1367,12 +1367,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_sl",
-    "version": 1,
+    "version": 2,
     "tales": 34,
     "tiers": {
      "lite": {
-      "size": 1647641,
-      "sha256": "c9b22d5035da2d77ddffcd95b0606ff68d364b7dedf77942ca1ca1f0cb612ef4"
+      "size": 866764,
+      "sha256": "6ed95ae1db469679059002e6b138bbae62e625883e8c5ad7ebac20f59cdc0d9f"
      }
     }
    }
@@ -1406,12 +1406,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_tr",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1313574,
-      "sha256": "1a33ddc20d5cf953879987206eaf24fdf91223d0eef436b6f61541e95bf5042f"
+      "size": 1381281,
+      "sha256": "1d14432e0328bb7422793bfc326b5b535cefa9f624f94dd80c0ecf0e41a1de73"
      }
     }
    }
@@ -1424,12 +1424,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_tz",
-    "version": 1,
+    "version": 2,
     "tales": 10,
     "tiers": {
      "lite": {
-      "size": 1068622,
-      "sha256": "7d21064746b6e647a10d36e242c3d3bd356eb2f82e802b17d6dfc58e012fbb5b"
+      "size": 513825,
+      "sha256": "3a16e8fa0a0ca1c021a91a3a5c41ffae0990bd09ea32bc5c559c3d8335ed2035"
      }
     }
    }
@@ -1442,12 +1442,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_ua",
-    "version": 1,
+    "version": 2,
     "tales": 17,
     "tiers": {
      "lite": {
-      "size": 1268626,
-      "sha256": "8c81ae0d830045c3d48dc85dba8e88c1eb7e2c1de9f8c29051ab40907e35b64b"
+      "size": 815643,
+      "sha256": "c4260c6eb0c8051a5910f1ac5b9041a3ff42d3ea9a0bce107655b197b49514c9"
      }
     }
    }
@@ -1460,12 +1460,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_us",
-    "version": 1,
+    "version": 2,
     "tales": 50,
     "tiers": {
      "lite": {
-      "size": 1477192,
-      "sha256": "2168306e469c7e97ea28332f17c60037f7d6c55941c6993b7d80cf7e3128bab5"
+      "size": 1123837,
+      "sha256": "63e29a3c58a0994140e545314e727c90bcb908b092b5a14d5d11055f0dd23196"
      }
     }
    }
@@ -1499,12 +1499,12 @@
    "free_tales": 5,
    "paid": {
     "product_id": "pack_za",
-    "version": 1,
+    "version": 2,
     "tales": 42,
     "tiers": {
      "lite": {
-      "size": 1476986,
-      "sha256": "237235cbb4e6d7938c2f01be1d38dac0d3f480258e1b2ac92d45832d8e2d1cd9"
+      "size": 774828,
+      "sha256": "d9928a9705c5e3898c761091c185fe3f5e4c46e45824f8915ee86a51752fdefe"
      }
     }
    }
