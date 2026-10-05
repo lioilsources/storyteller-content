@@ -1,5 +1,1520 @@
 {
-  "schema": 2,
-  "lang": "cs",
-  "packs": []
+ "schema": 3,
+ "lang": "cs",
+ "min_app_version": "1.4.0",
+ "base_urls": {
+  "free": "https://github.com/lioilsources/storyteller-content/releases/download/free-v1/",
+  "paid": "https://github.com/lioilsources/storyteller-content/releases/download/"
+ },
+ "continents": {
+  "af": {
+   "name": {
+    "cs": "Afrika",
+    "en": "Africa"
+   },
+   "bundled": false,
+   "countries": [
+    "CD",
+    "CG",
+    "CM",
+    "DZ",
+    "EG",
+    "GA",
+    "GH",
+    "KE",
+    "LS",
+    "MG",
+    "MZ",
+    "NA",
+    "NG",
+    "SL",
+    "TN",
+    "TZ",
+    "ZA",
+    "ZM"
+   ],
+   "free": {
+    "version": 1,
+    "size": 14918493,
+    "sha256": "23eb5c6635894fb58b3cb0650141197e9f7814c34ce339d054de2e5093185115",
+    "tales": 57,
+    "file": "continent-af-free-v1.zip"
+   }
+  },
+  "as": {
+   "name": {
+    "cs": "Asie",
+    "en": "Asia"
+   },
+   "bundled": false,
+   "countries": [
+    "AE",
+    "AF",
+    "AM",
+    "CN",
+    "CY",
+    "GE",
+    "IN",
+    "IQ",
+    "IR",
+    "JP",
+    "KG",
+    "KR",
+    "KZ",
+    "LA",
+    "LK",
+    "MM",
+    "MN",
+    "MY",
+    "PH",
+    "PK",
+    "SA",
+    "TJ",
+    "TM",
+    "TR",
+    "YE"
+   ],
+   "free": {
+    "version": 1,
+    "size": 14125616,
+    "sha256": "dd24219d6857424c293cdfadab63b2c36bbcef06274117bacb84ba8114dab293",
+    "tales": 92,
+    "file": "continent-as-free-v1.zip"
+   }
+  },
+  "eu": {
+   "name": {
+    "cs": "Evropa",
+    "en": "Europe"
+   },
+   "bundled": true,
+   "countries": [
+    "AL",
+    "AT",
+    "BE",
+    "BG",
+    "CH",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "HR",
+    "HU",
+    "IE",
+    "IM",
+    "IS",
+    "IT",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "RS",
+    "RU",
+    "SE",
+    "SI",
+    "SK",
+    "UA"
+   ],
+   "free": {
+    "version": 2,
+    "size": 106294323,
+    "sha256": "932d4981cf6530b02ddd63911a4b289e09ba7f9359afb67c849579240ca8af29",
+    "tales": 259,
+    "file": "continent-eu-free-v2.zip"
+   }
+  },
+  "na": {
+   "name": {
+    "cs": "Severní Amerika",
+    "en": "North America"
+   },
+   "bundled": false,
+   "countries": [
+    "CA",
+    "CU",
+    "GD",
+    "GL",
+    "GT",
+    "HN",
+    "HT",
+    "JM",
+    "MX",
+    "PR",
+    "US"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8348377,
+    "sha256": "945d7f9ba7d5d4defd8ef6e7ccc66ce2d0732e4c152efce6f491c664d8e981d3",
+    "tales": 42,
+    "file": "continent-na-free-v1.zip"
+   }
+  },
+  "oc": {
+   "name": {
+    "cs": "Oceánie",
+    "en": "Oceania"
+   },
+   "bundled": false,
+   "countries": [
+    "AU",
+    "FJ",
+    "GU"
+   ],
+   "free": {
+    "version": 1,
+    "size": 2361412,
+    "sha256": "174da6265aab29261ee6f18756c80cb04c9bfa4d7aca040c6302f344ef05e5c2",
+    "tales": 8,
+    "file": "continent-oc-free-v1.zip"
+   }
+  },
+  "sa": {
+   "name": {
+    "cs": "Jižní Amerika",
+    "en": "South America"
+   },
+   "bundled": false,
+   "countries": [
+    "AR",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "GY",
+    "PE",
+    "PY",
+    "UY",
+    "VE"
+   ],
+   "free": {
+    "version": 1,
+    "size": 3001082,
+    "sha256": "05be8c142e38fd1dc0ecc9c54e390bfc63871adcedc4566b2296e2b351f44c31",
+    "tales": 24,
+    "file": "continent-sa-free-v1.zip"
+   }
+  }
+ },
+ "countries": {
+  "ae": {
+   "name": {
+    "en": "United Arab Emirates"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "af": {
+   "name": {
+    "en": "Afghanistan"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "al": {
+   "name": {
+    "en": "Albania"
+   },
+   "continent": "EU",
+   "free_tales": 1
+  },
+  "am": {
+   "name": {
+    "en": "Armenia"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_am",
+    "version": 1,
+    "tales": 24,
+    "tiers": {
+     "lite": {
+      "size": 426622,
+      "sha256": "22b0ad769d8aad938536bfff3900b2f5987c8067cba70a7f9785417639aaa442"
+     }
+    }
+   }
+  },
+  "ar": {
+   "name": {
+    "en": "Argentina"
+   },
+   "continent": "SA",
+   "free_tales": 2
+  },
+  "at": {
+   "name": {
+    "en": "Austria"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_at",
+    "version": 1,
+    "tales": 7,
+    "tiers": {
+     "lite": {
+      "size": 1052076,
+      "sha256": "7d2094c269639ea705965d531cd5bd7d24b21e69bf185c2ce0b43426d3650b31"
+     }
+    }
+   }
+  },
+  "au": {
+   "name": {
+    "en": "Australia"
+   },
+   "continent": "OC",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_au",
+    "version": 1,
+    "tales": 23,
+    "tiers": {
+     "lite": {
+      "size": 1312352,
+      "sha256": "c4e5772475ddac7c845a01f29f88851f04998b276f776d18e9c3d355c1d65b47"
+     }
+    }
+   }
+  },
+  "be": {
+   "name": {
+    "en": "Belgium"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_be",
+    "version": 1,
+    "tales": 49,
+    "tiers": {
+     "lite": {
+      "size": 1410971,
+      "sha256": "a7a9fe0252e4aac76e3b2cbb3c80183a92400078d73a81d0592251e8adeffbf5"
+     }
+    }
+   }
+  },
+  "bg": {
+   "name": {
+    "en": "Bulgaria"
+   },
+   "continent": "EU",
+   "free_tales": 2
+  },
+  "bo": {
+   "name": {
+    "en": "Bolivia"
+   },
+   "continent": "SA",
+   "free_tales": 1
+  },
+  "br": {
+   "name": {
+    "en": "Brazil"
+   },
+   "continent": "SA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_br",
+    "version": 1,
+    "tales": 28,
+    "tiers": {
+     "lite": {
+      "size": 401209,
+      "sha256": "e0e36870f4a3bd0b54c691059b75caf50e3e960facfa94438a05c55630e9420b"
+     }
+    }
+   }
+  },
+  "ca": {
+   "name": {
+    "en": "Canada"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ca",
+    "version": 1,
+    "tales": 33,
+    "tiers": {
+     "lite": {
+      "size": 1531564,
+      "sha256": "50d4287f58729819202c914b9ebca2fd73f6dff92b57a557615ca45477d83bdb"
+     }
+    }
+   }
+  },
+  "cd": {
+   "name": {
+    "en": "Dem. Rep. Congo"
+   },
+   "continent": "AF",
+   "free_tales": 4
+  },
+  "cg": {
+   "name": {
+    "en": "Congo"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_cg",
+    "version": 1,
+    "tales": 11,
+    "tiers": {
+     "lite": {
+      "size": 1066264,
+      "sha256": "33eeb628cc8c9b04ea749da58ae9f25c4be00ed3a8a27ca3d499c0f8eb52868f"
+     }
+    }
+   }
+  },
+  "ch": {
+   "name": {
+    "en": "Switzerland"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ch",
+    "version": 1,
+    "tales": 18,
+    "tiers": {
+     "lite": {
+      "size": 1496743,
+      "sha256": "41cb66e6204b65d7981d31088f1e6adbb1186fc5034690ead59ac5f547298880"
+     }
+    }
+   }
+  },
+  "cl": {
+   "name": {
+    "en": "Chile"
+   },
+   "continent": "SA",
+   "free_tales": 2
+  },
+  "cm": {
+   "name": {
+    "en": "Cameroon"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_cm",
+    "version": 1,
+    "tales": 7,
+    "tiers": {
+     "lite": {
+      "size": 1149110,
+      "sha256": "3a72e0a2e42e74cb7ccf2e646087ffb8456e474100205d62fc416943086c9736"
+     }
+    }
+   }
+  },
+  "cn": {
+   "name": {
+    "en": "China"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_cn",
+    "version": 1,
+    "tales": 26,
+    "tiers": {
+     "lite": {
+      "size": 1164118,
+      "sha256": "d7a4767834ce29238c5c4b674ad5356bb5701584701f8e47beb1a430484b8384"
+     }
+    }
+   }
+  },
+  "co": {
+   "name": {
+    "en": "Colombia"
+   },
+   "continent": "SA",
+   "free_tales": 4
+  },
+  "cu": {
+   "name": {
+    "en": "Cuba"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_cu",
+    "version": 1,
+    "tales": 7,
+    "tiers": {
+     "lite": {
+      "size": 1224670,
+      "sha256": "1b01bcd84d4db6fcfd0303231cc1f808c6ca704af8730b90901ca6a684722ee1"
+     }
+    }
+   }
+  },
+  "cy": {
+   "name": {
+    "en": "Cyprus"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "cz": {
+   "name": {
+    "en": "Czechia"
+   },
+   "continent": "EU",
+   "free_tales": 127
+  },
+  "de": {
+   "name": {
+    "en": "Germany"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_de",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 19876002,
+      "sha256": "6e39a06e3bf63cfbd9a2667fa03b278d9eafbc0786342f261fc45c9e2e2b094d"
+     }
+    }
+   }
+  },
+  "dk": {
+   "name": {
+    "en": "Denmark"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_dk",
+    "version": 1,
+    "tales": 38,
+    "tiers": {
+     "lite": {
+      "size": 4559852,
+      "sha256": "0f796261e1e50765235c8baae6062fc4b720faaf4768f49fca942bad2339f696"
+     }
+    }
+   }
+  },
+  "dz": {
+   "name": {
+    "en": "Algeria"
+   },
+   "continent": "AF",
+   "free_tales": 1
+  },
+  "ee": {
+   "name": {
+    "en": "Estonia"
+   },
+   "continent": "EU",
+   "free_tales": 4
+  },
+  "eg": {
+   "name": {
+    "en": "Egypt"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_eg",
+    "version": 1,
+    "tales": 3,
+    "tiers": {
+     "lite": {
+      "size": 706912,
+      "sha256": "e9bb0405c59e957fe1819e6d9bfc75776c94cd3c10304a14f865f69b6fe8ea73"
+     }
+    }
+   }
+  },
+  "es": {
+   "name": {
+    "en": "Spain"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_es",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1384368,
+      "sha256": "ee2f88fa7c34dbf4bbed0a1227476c6e280b287648bff21745dc7c7358168056"
+     }
+    }
+   }
+  },
+  "fi": {
+   "name": {
+    "en": "Finland"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_fi",
+    "version": 1,
+    "tales": 2,
+    "tiers": {
+     "lite": {
+      "size": 453769,
+      "sha256": "9e0f094791d544e2061c35fd386c165bec3505deea411c50ac27fc976f321ae5"
+     }
+    }
+   }
+  },
+  "fj": {
+   "name": {
+    "en": "Fiji"
+   },
+   "continent": "OC",
+   "free_tales": 2
+  },
+  "fr": {
+   "name": {
+    "en": "France"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_fr",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 3924925,
+      "sha256": "e5426e8da178509aac999a35b8b72c934482a885cada4c72f67468f9c98d5a28"
+     }
+    }
+   }
+  },
+  "ga": {
+   "name": {
+    "en": "Gabon"
+   },
+   "continent": "AF",
+   "free_tales": 2
+  },
+  "gb": {
+   "name": {
+    "en": "United Kingdom"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_gb",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1506923,
+      "sha256": "42352cee1184e2683b82771cedaf095f3460ae4227a0a8da88eb481b7860bef4"
+     }
+    }
+   }
+  },
+  "gd": {
+   "name": {
+    "en": "GD"
+   },
+   "continent": "NA",
+   "free_tales": 1
+  },
+  "ge": {
+   "name": {
+    "en": "Georgia"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ge",
+    "version": 1,
+    "tales": 42,
+    "tiers": {
+     "lite": {
+      "size": 465094,
+      "sha256": "3eb18c128351aebd079eec15b13b1c1997c2ac62810026c639162556cab0d6ea"
+     }
+    }
+   }
+  },
+  "gh": {
+   "name": {
+    "en": "Ghana"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_gh",
+    "version": 1,
+    "tales": 17,
+    "tiers": {
+     "lite": {
+      "size": 1311053,
+      "sha256": "3541bbe6b46f956dc86ae1e073ff61553b9671239197e4e754ee05b3d602e22b"
+     }
+    }
+   }
+  },
+  "gl": {
+   "name": {
+    "en": "Greenland"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_gl",
+    "version": 1,
+    "tales": 7,
+    "tiers": {
+     "lite": {
+      "size": 1011844,
+      "sha256": "4dd64bb0363b458b9369dc59fe782b792cfb4c79413e46f8911f9cf3d8cf9c52"
+     }
+    }
+   }
+  },
+  "gr": {
+   "name": {
+    "en": "Greece"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_gr",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 14673934,
+      "sha256": "6f99d92db17b942be55766f2e0a41f6cb85cef5ef721ea796f699b57c178e5d8"
+     }
+    }
+   }
+  },
+  "gt": {
+   "name": {
+    "en": "Guatemala"
+   },
+   "continent": "NA",
+   "free_tales": 4
+  },
+  "gu": {
+   "name": {
+    "en": "GU"
+   },
+   "continent": "OC",
+   "free_tales": 1
+  },
+  "gy": {
+   "name": {
+    "en": "Guyana"
+   },
+   "continent": "SA",
+   "free_tales": 1
+  },
+  "hn": {
+   "name": {
+    "en": "Honduras"
+   },
+   "continent": "NA",
+   "free_tales": 1
+  },
+  "hr": {
+   "name": {
+    "en": "Croatia"
+   },
+   "continent": "EU",
+   "free_tales": 2
+  },
+  "ht": {
+   "name": {
+    "en": "Haiti"
+   },
+   "continent": "NA",
+   "free_tales": 1
+  },
+  "hu": {
+   "name": {
+    "en": "Hungary"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_hu",
+    "version": 1,
+    "tales": 2,
+    "tiers": {
+     "lite": {
+      "size": 455910,
+      "sha256": "35afeddb79aaf2285db2e3ca5bd14fdcb89d65324bef33a54768c06b25f6e4c8"
+     }
+    }
+   }
+  },
+  "ie": {
+   "name": {
+    "en": "Ireland"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ie",
+    "version": 1,
+    "tales": 6,
+    "tiers": {
+     "lite": {
+      "size": 1123612,
+      "sha256": "db667260e987c632d906be6bc6088e748db600dfcefa4885a7f666fc47db6c04"
+     }
+    }
+   }
+  },
+  "im": {
+   "name": {
+    "en": "IM"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_im",
+    "version": 1,
+    "tales": 34,
+    "tiers": {
+     "lite": {
+      "size": 1264128,
+      "sha256": "0da2f846736b6f14465d9afc461b47265e17c7bc2537443f5b9c55f6cb470de5"
+     }
+    }
+   }
+  },
+  "in": {
+   "name": {
+    "en": "India"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_in",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1724480,
+      "sha256": "06fa729cf470e4977080e7b4225d9cdc201965c88fd97b5094ee5dd2737f5ce6"
+     }
+    }
+   }
+  },
+  "iq": {
+   "name": {
+    "en": "Iraq"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_iq",
+    "version": 1,
+    "tales": 10,
+    "tiers": {
+     "lite": {
+      "size": 1008567,
+      "sha256": "c694c6d655a2b18f0bcc1c2a781bf0c8ada02cfe924cbf205c0b45f970ca84f6"
+     }
+    }
+   }
+  },
+  "ir": {
+   "name": {
+    "en": "Iran"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ir",
+    "version": 1,
+    "tales": 9,
+    "tiers": {
+     "lite": {
+      "size": 1042394,
+      "sha256": "2f158a52b9646c2d2b6678b862625860277501037953a6cab800d34164bab9e4"
+     }
+    }
+   }
+  },
+  "is": {
+   "name": {
+    "en": "Iceland"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_is",
+    "version": 1,
+    "tales": 3,
+    "tiers": {
+     "lite": {
+      "size": 602688,
+      "sha256": "cf63bd43e803bc0050d2449b0925f8ca0f6884926a187b5b304137c17c78b6e9"
+     }
+    }
+   }
+  },
+  "it": {
+   "name": {
+    "en": "Italy"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_it",
+    "version": 1,
+    "tales": 15,
+    "tiers": {
+     "lite": {
+      "size": 1226478,
+      "sha256": "4e577ab2ea59a2d5f55e38f8ab94e7b64e6952ba112f526def77408a2c5b6779"
+     }
+    }
+   }
+  },
+  "jm": {
+   "name": {
+    "en": "Jamaica"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_jm",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1293848,
+      "sha256": "246c376822f572fdd9263813ec404f1959675dd9fe080d5eeee1282a1b5c4c96"
+     }
+    }
+   }
+  },
+  "jp": {
+   "name": {
+    "en": "Japan"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_jp",
+    "version": 1,
+    "tales": 8,
+    "tiers": {
+     "lite": {
+      "size": 1033115,
+      "sha256": "97a3057704535fd7b941c0fa7e1a66eb32bb0a39db63477cdda67e38eb1de4db"
+     }
+    }
+   }
+  },
+  "ke": {
+   "name": {
+    "en": "Kenya"
+   },
+   "continent": "AF",
+   "free_tales": 1
+  },
+  "kg": {
+   "name": {
+    "en": "Kyrgyzstan"
+   },
+   "continent": "AS",
+   "free_tales": 3
+  },
+  "kr": {
+   "name": {
+    "en": "South Korea"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_kr",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1318418,
+      "sha256": "95b6de0f149faf2b5a91764803d58d4dd092fe2f7acf4d6ee5f8427453e011fc"
+     }
+    }
+   }
+  },
+  "kz": {
+   "name": {
+    "en": "Kazakhstan"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_kz",
+    "version": 1,
+    "tales": 2,
+    "tiers": {
+     "lite": {
+      "size": 140327,
+      "sha256": "43cc226c57433a58fd56956faa2d770ca5d2812bb1e1ede3d39bc7124cc70e9e"
+     }
+    }
+   }
+  },
+  "la": {
+   "name": {
+    "en": "Laos"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_la",
+    "version": 1,
+    "tales": 37,
+    "tiers": {
+     "lite": {
+      "size": 1362918,
+      "sha256": "bcc9e94c118c884a1e2591cbed5585b2db1e8bbfad954c13d68ae984f0d34a63"
+     }
+    }
+   }
+  },
+  "lk": {
+   "name": {
+    "en": "Sri Lanka"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_lk",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1559868,
+      "sha256": "3d040e7ca37c765533509b138ede18f92dd4934e16749fd0589eda0a069c1e0a"
+     }
+    }
+   }
+  },
+  "ls": {
+   "name": {
+    "en": "Lesotho"
+   },
+   "continent": "AF",
+   "free_tales": 3
+  },
+  "mg": {
+   "name": {
+    "en": "Madagascar"
+   },
+   "continent": "AF",
+   "free_tales": 1
+  },
+  "mm": {
+   "name": {
+    "en": "Myanmar"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_mm",
+    "version": 1,
+    "tales": 11,
+    "tiers": {
+     "lite": {
+      "size": 316857,
+      "sha256": "d11cadd6e4eb8405c6c48469bb2d50b0898fbe2cbb2b6722ca7d29fe9d628b9a"
+     }
+    }
+   }
+  },
+  "mn": {
+   "name": {
+    "en": "Mongolia"
+   },
+   "continent": "AS",
+   "free_tales": 2
+  },
+  "mx": {
+   "name": {
+    "en": "Mexico"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_mx",
+    "version": 1,
+    "tales": 12,
+    "tiers": {
+     "lite": {
+      "size": 842250,
+      "sha256": "fede57eac497d583e0d7514f231855358a5e9da4952e72d33ddd0f68ca2a63df"
+     }
+    }
+   }
+  },
+  "my": {
+   "name": {
+    "en": "Malaysia"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_my",
+    "version": 1,
+    "tales": 21,
+    "tiers": {
+     "lite": {
+      "size": 386147,
+      "sha256": "6eec88ba4d4fae4f7f8662d301e349f5bd4f58be27b7cc4f6c0b0c49870bcde4"
+     }
+    }
+   }
+  },
+  "mz": {
+   "name": {
+    "en": "Mozambique"
+   },
+   "continent": "AF",
+   "free_tales": 1
+  },
+  "na": {
+   "name": {
+    "en": "Namibia"
+   },
+   "continent": "AF",
+   "free_tales": 1
+  },
+  "ng": {
+   "name": {
+    "en": "Nigeria"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ng",
+    "version": 1,
+    "tales": 21,
+    "tiers": {
+     "lite": {
+      "size": 1250563,
+      "sha256": "5b208375776cebe629b0ad15099391129504ed5311ab6b19b99e32268e033b90"
+     }
+    }
+   }
+  },
+  "nl": {
+   "name": {
+    "en": "Netherlands"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_nl",
+    "version": 1,
+    "tales": 18,
+    "tiers": {
+     "lite": {
+      "size": 1435816,
+      "sha256": "b722e4e270437ae04d4ab7c5b46c7050b2b9815f3a86508cca6c445ece5f8fab"
+     }
+    }
+   }
+  },
+  "no": {
+   "name": {
+    "en": "Norway"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_no",
+    "version": 1,
+    "tales": 9,
+    "tiers": {
+     "lite": {
+      "size": 1141005,
+      "sha256": "2944db63ecb1ceb412d57ebc94033bf9f02241cd904d598a202e09b478ce3551"
+     }
+    }
+   }
+  },
+  "pe": {
+   "name": {
+    "en": "Peru"
+   },
+   "continent": "SA",
+   "free_tales": 3
+  },
+  "ph": {
+   "name": {
+    "en": "Philippines"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ph",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1403113,
+      "sha256": "d4d6b6b88428bdd7908c629734c22c7745149b8595ba0bc391dc619e66dfbf53"
+     }
+    }
+   }
+  },
+  "pk": {
+   "name": {
+    "en": "Pakistan"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_pk",
+    "version": 1,
+    "tales": 16,
+    "tiers": {
+     "lite": {
+      "size": 1423761,
+      "sha256": "57978b05927a240430991e13a105ead9dad5918c2667b341890c0e39ec63a028"
+     }
+    }
+   }
+  },
+  "pl": {
+   "name": {
+    "en": "Poland"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_pl",
+    "version": 1,
+    "tales": 4,
+    "tiers": {
+     "lite": {
+      "size": 805683,
+      "sha256": "e292f26e9f8635177df5eb134f89a8cdb34df724cbe12ae821f97c87d6d5f263"
+     }
+    }
+   }
+  },
+  "pr": {
+   "name": {
+    "en": "Puerto Rico"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_pr",
+    "version": 1,
+    "tales": 2,
+    "tiers": {
+     "lite": {
+      "size": 363085,
+      "sha256": "e26fbfa149cada33cd8f8c2e0a96ad036c299ee5b018c058c360e18ff3e5f73b"
+     }
+    }
+   }
+  },
+  "pt": {
+   "name": {
+    "en": "Portugal"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_pt",
+    "version": 1,
+    "tales": 40,
+    "tiers": {
+     "lite": {
+      "size": 1297875,
+      "sha256": "1a68fbc37097c2af8a5235b68bd8c331492c43f65729e4462582ad0a6700261d"
+     }
+    }
+   }
+  },
+  "py": {
+   "name": {
+    "en": "Paraguay"
+   },
+   "continent": "SA",
+   "free_tales": 1
+  },
+  "ro": {
+   "name": {
+    "en": "Romania"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ro",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1260383,
+      "sha256": "aa24dd0a9cfc072ad5454f9ce65f430db9db765a10e7370b9d4bc0bb04091cf3"
+     }
+    }
+   }
+  },
+  "rs": {
+   "name": {
+    "en": "Serbia"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_rs",
+    "version": 1,
+    "tales": 22,
+    "tiers": {
+     "lite": {
+      "size": 1337123,
+      "sha256": "3665d05ffa5e6c0f8e35a2d498d759e827d5a45df7d31bbda734e554e3f19e48"
+     }
+    }
+   }
+  },
+  "ru": {
+   "name": {
+    "en": "Russia"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ru",
+    "version": 1,
+    "tales": 26,
+    "tiers": {
+     "lite": {
+      "size": 1482138,
+      "sha256": "9a20a002611fc604d30ed7d2448d4c7c13c56fe298494d930e82c4753c569204"
+     }
+    }
+   }
+  },
+  "sa": {
+   "name": {
+    "en": "Saudi Arabia"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "se": {
+   "name": {
+    "en": "Sweden"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_se",
+    "version": 1,
+    "tales": 1,
+    "tiers": {
+     "lite": {
+      "size": 255084,
+      "sha256": "530eceafb879b95f38466ffd7e4b23f90c1892868b2bb1a9d0184e50a6a99e19"
+     }
+    }
+   }
+  },
+  "si": {
+   "name": {
+    "en": "Slovenia"
+   },
+   "continent": "EU",
+   "free_tales": 2
+  },
+  "sk": {
+   "name": {
+    "en": "Slovakia"
+   },
+   "continent": "EU",
+   "free_tales": 1
+  },
+  "sl": {
+   "name": {
+    "en": "Sierra Leone"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_sl",
+    "version": 1,
+    "tales": 34,
+    "tiers": {
+     "lite": {
+      "size": 1647641,
+      "sha256": "c9b22d5035da2d77ddffcd95b0606ff68d364b7dedf77942ca1ca1f0cb612ef4"
+     }
+    }
+   }
+  },
+  "tj": {
+   "name": {
+    "en": "Tajikistan"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "tm": {
+   "name": {
+    "en": "Turkmenistan"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "tn": {
+   "name": {
+    "en": "Tunisia"
+   },
+   "continent": "AF",
+   "free_tales": 2
+  },
+  "tr": {
+   "name": {
+    "en": "Turkey"
+   },
+   "continent": "AS",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_tr",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1313574,
+      "sha256": "1a33ddc20d5cf953879987206eaf24fdf91223d0eef436b6f61541e95bf5042f"
+     }
+    }
+   }
+  },
+  "tz": {
+   "name": {
+    "en": "Tanzania"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_tz",
+    "version": 1,
+    "tales": 10,
+    "tiers": {
+     "lite": {
+      "size": 1068622,
+      "sha256": "7d21064746b6e647a10d36e242c3d3bd356eb2f82e802b17d6dfc58e012fbb5b"
+     }
+    }
+   }
+  },
+  "ua": {
+   "name": {
+    "en": "Ukraine"
+   },
+   "continent": "EU",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_ua",
+    "version": 1,
+    "tales": 17,
+    "tiers": {
+     "lite": {
+      "size": 1268626,
+      "sha256": "8c81ae0d830045c3d48dc85dba8e88c1eb7e2c1de9f8c29051ab40907e35b64b"
+     }
+    }
+   }
+  },
+  "us": {
+   "name": {
+    "en": "United States of America"
+   },
+   "continent": "NA",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_us",
+    "version": 1,
+    "tales": 50,
+    "tiers": {
+     "lite": {
+      "size": 1477192,
+      "sha256": "2168306e469c7e97ea28332f17c60037f7d6c55941c6993b7d80cf7e3128bab5"
+     }
+    }
+   }
+  },
+  "uy": {
+   "name": {
+    "en": "Uruguay"
+   },
+   "continent": "SA",
+   "free_tales": 1
+  },
+  "ve": {
+   "name": {
+    "en": "Venezuela"
+   },
+   "continent": "SA",
+   "free_tales": 4
+  },
+  "ye": {
+   "name": {
+    "en": "Yemen"
+   },
+   "continent": "AS",
+   "free_tales": 1
+  },
+  "za": {
+   "name": {
+    "en": "South Africa"
+   },
+   "continent": "AF",
+   "free_tales": 5,
+   "paid": {
+    "product_id": "pack_za",
+    "version": 1,
+    "tales": 42,
+    "tiers": {
+     "lite": {
+      "size": 1476986,
+      "sha256": "237235cbb4e6d7938c2f01be1d38dac0d3f480258e1b2ac92d45832d8e2d1cd9"
+     }
+    }
+   }
+  },
+  "zm": {
+   "name": {
+    "en": "Zambia"
+   },
+   "continent": "AF",
+   "free_tales": 1
+  }
+ }
 }
