@@ -39,11 +39,11 @@
     "DE"
    ],
    "free": {
-    "version": 1,
-    "size": 8106936,
-    "sha256": "f6b313056259d8fd15aedd8d7f727e613cf6957d94f8f950fdeb839d382a2f76",
+    "version": 2,
+    "size": 8134332,
+    "sha256": "79bc4acd4d31fccd56ce36220bb94b477c09bc4df996493283158052ddb345e3",
     "tales": 10,
-    "file": "region-dach-free-v1.zip"
+    "file": "region-dach-free-v2.zip"
    },
    "parts": []
   },
@@ -59,11 +59,11 @@
     "IM"
    ],
    "free": {
-    "version": 1,
-    "size": 7881587,
-    "sha256": "f22449b0d85cfc2f2c5d07edca64fb245ee406d49d39cf5a132f42c9455b34fa",
+    "version": 2,
+    "size": 8038176,
+    "sha256": "70919a9bcfd80dddb5e93335d877e5f377dfdc5b9ab8c51cc5afb23a08524db1",
     "tales": 10,
-    "file": "region-brit-free-v1.zip"
+    "file": "region-brit-free-v2.zip"
    },
    "parts": []
   },
@@ -79,11 +79,11 @@
     "NL"
    ],
    "free": {
-    "version": 1,
-    "size": 8616805,
-    "sha256": "0fca1eeaef8bbad7d8ba365a7a8ca5c966f5dd55b851849aa95c7c128b1f935f",
+    "version": 2,
+    "size": 8538298,
+    "sha256": "02aef4ee661e06702b24e7c298ca6bfe0d205c755d6d9eec92b285d6a0565f6f",
     "tales": 10,
-    "file": "region-frbx-free-v1.zip"
+    "file": "region-frbx-free-v2.zip"
    },
    "parts": []
   },
@@ -98,11 +98,11 @@
     "PT"
    ],
    "free": {
-    "version": 1,
-    "size": 8153834,
-    "sha256": "318d8725399d7fafe1ec75723b8d909d07c5fa728d6c1341c8bd7d896eef405c",
+    "version": 2,
+    "size": 8087373,
+    "sha256": "2fc0b49755ae835fe2f47ffcfd6c906bbda00582a14968b8fc6cd368e5a755d4",
     "tales": 10,
-    "file": "region-iber-free-v1.zip"
+    "file": "region-iber-free-v2.zip"
    },
    "parts": []
   },
@@ -123,11 +123,11 @@
     "SI"
    ],
    "free": {
-    "version": 1,
-    "size": 7868535,
-    "sha256": "8e86cd14b163fdba3cda6f40ad1fa26cb22b2cea49863b65b2ad134466e5824d",
+    "version": 2,
+    "size": 7574054,
+    "sha256": "add7a3b2f17a26e6f771d0a1572deb7c14f8d95e4886278dc3c570047fe5552a",
     "tales": 10,
-    "file": "region-medi-free-v1.zip"
+    "file": "region-medi-free-v2.zip"
    },
    "parts": []
   },
@@ -190,11 +190,11 @@
     "PK"
    ],
    "free": {
-    "version": 1,
-    "size": 8543212,
-    "sha256": "5f5749be8d3c4d885bb0872452585d3b5a9a78b0ba1f820d947e9ce0ef1ef2e2",
+    "version": 2,
+    "size": 8426477,
+    "sha256": "95367a96c3c23439d1ce0ae88ca791584b4adc775736760424b0e2f87387ee16",
     "tales": 10,
-    "file": "region-indi-free-v1.zip"
+    "file": "region-indi-free-v2.zip"
    },
    "parts": []
   },
@@ -211,11 +211,11 @@
     "MN"
    ],
    "free": {
-    "version": 1,
-    "size": 7324147,
-    "sha256": "4d10570ca528c19a03908e66ddcaec9bcaf975c28f6e54c75b6f01c3c397b196",
+    "version": 2,
+    "size": 7375598,
+    "sha256": "3a5a62ac4abb5996b2c22a111d87651cec7b261383a4f53a16d343322f8f7bca",
     "tales": 10,
-    "file": "region-easi-free-v1.zip"
+    "file": "region-easi-free-v2.zip"
    },
    "parts": []
   },
@@ -235,11 +235,11 @@
     "PH"
    ],
    "free": {
-    "version": 1,
-    "size": 8102221,
-    "sha256": "7bf4c3147f06d0377caf65646ce163db824cc03bc4b7437a257a60218fadc14e",
+    "version": 2,
+    "size": 8162166,
+    "sha256": "fd3f9de300d45a246a8c63f35388acb0dec3e8f8511179ef0b656e355e158ee1",
     "tales": 10,
-    "file": "region-seao-free-v1.zip"
+    "file": "region-seao-free-v2.zip"
    },
    "parts": []
   },
@@ -263,11 +263,11 @@
     "YE"
    ],
    "free": {
-    "version": 1,
-    "size": 7807256,
-    "sha256": "a36dcd0cb6878e627e97c1b17f91ddef70bf837580dad82f2cfd967fc3176664",
+    "version": 2,
+    "size": 7992795,
+    "sha256": "ff18422b02b8d1c58036112a7ef4d6f5a1847599d17f947c0e9ee265a4e1764a",
     "tales": 10,
-    "file": "region-meas-free-v1.zip"
+    "file": "region-meas-free-v2.zip"
    },
    "parts": []
   },
@@ -326,11 +326,11 @@
     "US"
    ],
    "free": {
-    "version": 1,
-    "size": 7182850,
-    "sha256": "307e2cc4facc86caf433e296a7b0b76dd95c69cf3bf79d79f8e0776c479f7275",
+    "version": 2,
+    "size": 7581761,
+    "sha256": "f08ed631438e358ab5ff580b8a2e5a8389f8d0a7b2d3ec5a3e28651d34e42587",
     "tales": 10,
-    "file": "region-namc-free-v1.zip"
+    "file": "region-namc-free-v2.zip"
    },
    "parts": []
   },
@@ -464,12 +464,12 @@
     "en": "Bulgaria"
    },
    "region": "MEDI",
-   "tales": 0,
+   "tales": 1,
    "in": {
-    "free": 0,
+    "free": 1,
     "parts": {}
    },
-   "coming": 2
+   "coming": 1
   },
   "bo": {
    "name": {
@@ -500,12 +500,12 @@
     "en": "Canada"
    },
    "region": "NAMC",
-   "tales": 0,
+   "tales": 2,
    "in": {
-    "free": 0,
+    "free": 2,
     "parts": {}
    },
-   "coming": 38
+   "coming": 36
   },
   "cd": {
    "name": {
@@ -716,12 +716,12 @@
     "en": "Fiji"
    },
    "region": "SEAO",
-   "tales": 1,
+   "tales": 2,
    "in": {
-    "free": 1,
+    "free": 2,
     "parts": {}
    },
-   "coming": 1
+   "coming": 0
   },
   "fr": {
    "name": {
@@ -764,12 +764,12 @@
     "en": "GD"
    },
    "region": "NAMC",
-   "tales": 1,
+   "tales": 0,
    "in": {
-    "free": 1,
+    "free": 0,
     "parts": {}
    },
-   "coming": 0
+   "coming": 1
   },
   "ge": {
    "name": {
@@ -800,24 +800,24 @@
     "en": "Greenland"
    },
    "region": "NAMC",
-   "tales": 1,
+   "tales": 2,
    "in": {
-    "free": 1,
+    "free": 2,
     "parts": {}
    },
-   "coming": 11
+   "coming": 10
   },
   "gr": {
    "name": {
     "en": "Greece"
    },
    "region": "MEDI",
-   "tales": 2,
+   "tales": 1,
    "in": {
-    "free": 2,
+    "free": 1,
     "parts": {}
    },
-   "coming": 313
+   "coming": 314
   },
   "gt": {
    "name": {
@@ -836,12 +836,12 @@
     "en": "GU"
    },
    "region": "SEAO",
-   "tales": 1,
+   "tales": 0,
    "in": {
-    "free": 1,
+    "free": 0,
     "parts": {}
    },
-   "coming": 0
+   "coming": 1
   },
   "gy": {
    "name": {
@@ -992,12 +992,12 @@
     "en": "Jamaica"
    },
    "region": "NAMC",
-   "tales": 0,
+   "tales": 1,
    "in": {
-    "free": 0,
+    "free": 1,
     "parts": {}
    },
-   "coming": 122
+   "coming": 121
   },
   "jp": {
    "name": {
@@ -1028,24 +1028,24 @@
     "en": "Kyrgyzstan"
    },
    "region": "MEAS",
-   "tales": 1,
+   "tales": 0,
    "in": {
-    "free": 1,
+    "free": 0,
     "parts": {}
    },
-   "coming": 2
+   "coming": 3
   },
   "kr": {
    "name": {
     "en": "South Korea"
    },
    "region": "EASI",
-   "tales": 2,
+   "tales": 3,
    "in": {
-    "free": 2,
+    "free": 3,
     "parts": {}
    },
-   "coming": 72
+   "coming": 71
   },
   "kz": {
    "name": {
@@ -1124,24 +1124,24 @@
     "en": "Mongolia"
    },
    "region": "EASI",
-   "tales": 2,
+   "tales": 1,
    "in": {
-    "free": 2,
+    "free": 1,
     "parts": {}
    },
-   "coming": 0
+   "coming": 1
   },
   "mx": {
    "name": {
     "en": "Mexico"
    },
    "region": "NAMC",
-   "tales": 1,
+   "tales": 0,
    "in": {
-    "free": 1,
+    "free": 0,
     "parts": {}
    },
-   "coming": 16
+   "coming": 17
   },
   "my": {
    "name": {
@@ -1268,12 +1268,12 @@
     "en": "Puerto Rico"
    },
    "region": "NAMC",
-   "tales": 1,
+   "tales": 0,
    "in": {
-    "free": 1,
+    "free": 0,
     "parts": {}
    },
-   "coming": 6
+   "coming": 7
   },
   "pt": {
    "name": {
@@ -1436,12 +1436,12 @@
     "en": "Turkey"
    },
    "region": "MEAS",
-   "tales": 1,
+   "tales": 2,
    "in": {
-    "free": 1,
+    "free": 2,
     "parts": {}
    },
-   "coming": 56
+   "coming": 55
   },
   "tz": {
    "name": {
@@ -1472,12 +1472,12 @@
     "en": "United States of America"
    },
    "region": "NAMC",
-   "tales": 2,
+   "tales": 1,
    "in": {
-    "free": 2,
+    "free": 1,
     "parts": {}
    },
-   "coming": 89
+   "coming": 90
   },
   "uy": {
    "name": {
