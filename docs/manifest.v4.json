@@ -1,0 +1,1543 @@
+{
+ "schema": 4,
+ "lang": "cs",
+ "min_app_version": "1.7.0",
+ "base_urls": {
+  "free": "https://github.com/lioilsources/storyteller-content/releases/download/free-v2/",
+  "paid": "https://github.com/lioilsources/storyteller-content/releases/download/"
+ },
+ "scenes": {},
+ "regions": {
+  "czsk": {
+   "name": {
+    "cs": "Česko a Slovensko",
+    "en": "Czechia and Slovakia"
+   },
+   "bundled": true,
+   "countries": [
+    "CZ",
+    "SK"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8893680,
+    "sha256": "b51ee34e8d263accb93ce744ec7553eb1c4363e372b8e7414e19249e42f6d41d",
+    "tales": 10,
+    "file": "region-czsk-free-v1.zip"
+   },
+   "parts": []
+  },
+  "dach": {
+   "name": {
+    "cs": "Německy mluvící země",
+    "en": "German-speaking lands"
+   },
+   "bundled": true,
+   "countries": [
+    "AT",
+    "CH",
+    "DE"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8106936,
+    "sha256": "f6b313056259d8fd15aedd8d7f727e613cf6957d94f8f950fdeb839d382a2f76",
+    "tales": 10,
+    "file": "region-dach-free-v1.zip"
+   },
+   "parts": []
+  },
+  "brit": {
+   "name": {
+    "cs": "Britské ostrovy",
+    "en": "British Isles"
+   },
+   "bundled": true,
+   "countries": [
+    "GB",
+    "IE",
+    "IM"
+   ],
+   "free": {
+    "version": 1,
+    "size": 7881587,
+    "sha256": "f22449b0d85cfc2f2c5d07edca64fb245ee406d49d39cf5a132f42c9455b34fa",
+    "tales": 10,
+    "file": "region-brit-free-v1.zip"
+   },
+   "parts": []
+  },
+  "frbx": {
+   "name": {
+    "cs": "Francie a Benelux",
+    "en": "France and Benelux"
+   },
+   "bundled": true,
+   "countries": [
+    "BE",
+    "FR",
+    "NL"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8616805,
+    "sha256": "0fca1eeaef8bbad7d8ba365a7a8ca5c966f5dd55b851849aa95c7c128b1f935f",
+    "tales": 10,
+    "file": "region-frbx-free-v1.zip"
+   },
+   "parts": []
+  },
+  "iber": {
+   "name": {
+    "cs": "Iberie",
+    "en": "Iberia"
+   },
+   "bundled": true,
+   "countries": [
+    "ES",
+    "PT"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8153834,
+    "sha256": "318d8725399d7fafe1ec75723b8d909d07c5fa728d6c1341c8bd7d896eef405c",
+    "tales": 10,
+    "file": "region-iber-free-v1.zip"
+   },
+   "parts": []
+  },
+  "medi": {
+   "name": {
+    "cs": "Itálie, Řecko a Balkán",
+    "en": "Italy, Greece and the Balkans"
+   },
+   "bundled": true,
+   "countries": [
+    "AL",
+    "BG",
+    "GR",
+    "HR",
+    "IT",
+    "RO",
+    "RS",
+    "SI"
+   ],
+   "free": {
+    "version": 1,
+    "size": 7868535,
+    "sha256": "8e86cd14b163fdba3cda6f40ad1fa26cb22b2cea49863b65b2ad134466e5824d",
+    "tales": 10,
+    "file": "region-medi-free-v1.zip"
+   },
+   "parts": []
+  },
+  "nord": {
+   "name": {
+    "cs": "Sever",
+    "en": "The North"
+   },
+   "bundled": true,
+   "countries": [
+    "DK",
+    "EE",
+    "FI",
+    "IS",
+    "NO",
+    "SE"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8346874,
+    "sha256": "e18ca5faaf1c3a51e6d6b7210b0ce186e49a433781dce30ceba95e9d16396b81",
+    "tales": 10,
+    "file": "region-nord-free-v1.zip"
+   },
+   "parts": []
+  },
+  "east": {
+   "name": {
+    "cs": "Východní Evropa a Kavkaz",
+    "en": "Eastern Europe and the Caucasus"
+   },
+   "bundled": true,
+   "countries": [
+    "AM",
+    "GE",
+    "HU",
+    "PL",
+    "RU",
+    "UA"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8361174,
+    "sha256": "98fdbdd1a3cb4d579c917c155a129f2d84f7e9e701e3f2132318f44fd357625e",
+    "tales": 10,
+    "file": "region-east-free-v1.zip"
+   },
+   "parts": []
+  },
+  "indi": {
+   "name": {
+    "cs": "Indie a jižní Asie",
+    "en": "India and South Asia"
+   },
+   "bundled": true,
+   "countries": [
+    "AF",
+    "IN",
+    "LK",
+    "PK"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8543212,
+    "sha256": "5f5749be8d3c4d885bb0872452585d3b5a9a78b0ba1f820d947e9ce0ef1ef2e2",
+    "tales": 10,
+    "file": "region-indi-free-v1.zip"
+   },
+   "parts": []
+  },
+  "easi": {
+   "name": {
+    "cs": "Východní Asie",
+    "en": "East Asia"
+   },
+   "bundled": true,
+   "countries": [
+    "CN",
+    "JP",
+    "KR",
+    "MN"
+   ],
+   "free": {
+    "version": 1,
+    "size": 7324147,
+    "sha256": "4d10570ca528c19a03908e66ddcaec9bcaf975c28f6e54c75b6f01c3c397b196",
+    "tales": 10,
+    "file": "region-easi-free-v1.zip"
+   },
+   "parts": []
+  },
+  "seao": {
+   "name": {
+    "cs": "Jihovýchodní Asie a Oceánie",
+    "en": "Southeast Asia and Oceania"
+   },
+   "bundled": true,
+   "countries": [
+    "AU",
+    "FJ",
+    "GU",
+    "LA",
+    "MM",
+    "MY",
+    "PH"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8102221,
+    "sha256": "7bf4c3147f06d0377caf65646ce163db824cc03bc4b7437a257a60218fadc14e",
+    "tales": 10,
+    "file": "region-seao-free-v1.zip"
+   },
+   "parts": []
+  },
+  "meas": {
+   "name": {
+    "cs": "Blízký východ a Střední Asie",
+    "en": "Middle East and Central Asia"
+   },
+   "bundled": true,
+   "countries": [
+    "AE",
+    "CY",
+    "IQ",
+    "IR",
+    "KG",
+    "KZ",
+    "SA",
+    "TJ",
+    "TM",
+    "TR",
+    "YE"
+   ],
+   "free": {
+    "version": 1,
+    "size": 7807256,
+    "sha256": "a36dcd0cb6878e627e97c1b17f91ddef70bf837580dad82f2cfd967fc3176664",
+    "tales": 10,
+    "file": "region-meas-free-v1.zip"
+   },
+   "parts": []
+  },
+  "afri": {
+   "name": {
+    "cs": "Afrika",
+    "en": "Africa"
+   },
+   "bundled": true,
+   "countries": [
+    "CD",
+    "CG",
+    "CM",
+    "DZ",
+    "EG",
+    "GA",
+    "GH",
+    "KE",
+    "LS",
+    "MG",
+    "MZ",
+    "NA",
+    "NG",
+    "SL",
+    "TN",
+    "TZ",
+    "ZA",
+    "ZM"
+   ],
+   "free": {
+    "version": 1,
+    "size": 8543742,
+    "sha256": "edaf94dd7c7dceeb5b8b94c7d863d917f1f4078770e88012eb901ea88ceff979",
+    "tales": 10,
+    "file": "region-afri-free-v1.zip"
+   },
+   "parts": []
+  },
+  "namc": {
+   "name": {
+    "cs": "Severní Amerika a Karibik",
+    "en": "North America and the Caribbean"
+   },
+   "bundled": true,
+   "countries": [
+    "CA",
+    "CU",
+    "GD",
+    "GL",
+    "GT",
+    "HN",
+    "HT",
+    "JM",
+    "MX",
+    "PR",
+    "US"
+   ],
+   "free": {
+    "version": 1,
+    "size": 7182850,
+    "sha256": "307e2cc4facc86caf433e296a7b0b76dd95c69cf3bf79d79f8e0776c479f7275",
+    "tales": 10,
+    "file": "region-namc-free-v1.zip"
+   },
+   "parts": []
+  },
+  "same": {
+   "name": {
+    "cs": "Jižní Amerika",
+    "en": "South America"
+   },
+   "bundled": true,
+   "countries": [
+    "AR",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "GY",
+    "PE",
+    "PY",
+    "UY",
+    "VE"
+   ],
+   "free": {
+    "version": 1,
+    "size": 6966058,
+    "sha256": "cc49e67a5f27c086230534ed332fccf62a75ca9e665a52d86c5310d8225ad082",
+    "tales": 10,
+    "file": "region-same-free-v1.zip"
+   },
+   "parts": []
+  }
+ },
+ "countries": {
+  "ae": {
+   "name": {
+    "en": "United Arab Emirates"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "af": {
+   "name": {
+    "en": "Afghanistan"
+   },
+   "region": "INDI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "al": {
+   "name": {
+    "en": "Albania"
+   },
+   "region": "MEDI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "am": {
+   "name": {
+    "en": "Armenia"
+   },
+   "region": "EAST",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 27
+  },
+  "ar": {
+   "name": {
+    "en": "Argentina"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "at": {
+   "name": {
+    "en": "Austria"
+   },
+   "region": "DACH",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 9
+  },
+  "au": {
+   "name": {
+    "en": "Australia"
+   },
+   "region": "SEAO",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 26
+  },
+  "be": {
+   "name": {
+    "en": "Belgium"
+   },
+   "region": "FRBX",
+   "tales": 4,
+   "in": {
+    "free": 4,
+    "parts": {}
+   },
+   "coming": 50
+  },
+  "bg": {
+   "name": {
+    "en": "Bulgaria"
+   },
+   "region": "MEDI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 2
+  },
+  "bo": {
+   "name": {
+    "en": "Bolivia"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "br": {
+   "name": {
+    "en": "Brazil"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 32
+  },
+  "ca": {
+   "name": {
+    "en": "Canada"
+   },
+   "region": "NAMC",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 38
+  },
+  "cd": {
+   "name": {
+    "en": "Dem. Rep. Congo"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 3
+  },
+  "cg": {
+   "name": {
+    "en": "Congo"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 15
+  },
+  "ch": {
+   "name": {
+    "en": "Switzerland"
+   },
+   "region": "DACH",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 20
+  },
+  "cl": {
+   "name": {
+    "en": "Chile"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "cm": {
+   "name": {
+    "en": "Cameroon"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 11
+  },
+  "cn": {
+   "name": {
+    "en": "China"
+   },
+   "region": "EASI",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 28
+  },
+  "co": {
+   "name": {
+    "en": "Colombia"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 3
+  },
+  "cu": {
+   "name": {
+    "en": "Cuba"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 11
+  },
+  "cy": {
+   "name": {
+    "en": "Cyprus"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "cz": {
+   "name": {
+    "en": "Czechia"
+   },
+   "region": "CZSK",
+   "tales": 9,
+   "in": {
+    "free": 9,
+    "parts": {}
+   },
+   "coming": 118
+  },
+  "de": {
+   "name": {
+    "en": "Germany"
+   },
+   "region": "DACH",
+   "tales": 4,
+   "in": {
+    "free": 4,
+    "parts": {}
+   },
+   "coming": 120
+  },
+  "dk": {
+   "name": {
+    "en": "Denmark"
+   },
+   "region": "NORD",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 41
+  },
+  "dz": {
+   "name": {
+    "en": "Algeria"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "ee": {
+   "name": {
+    "en": "Estonia"
+   },
+   "region": "NORD",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 3
+  },
+  "eg": {
+   "name": {
+    "en": "Egypt"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 7
+  },
+  "es": {
+   "name": {
+    "en": "Spain"
+   },
+   "region": "IBER",
+   "tales": 5,
+   "in": {
+    "free": 5,
+    "parts": {}
+   },
+   "coming": 56
+  },
+  "fi": {
+   "name": {
+    "en": "Finland"
+   },
+   "region": "NORD",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 5
+  },
+  "fj": {
+   "name": {
+    "en": "Fiji"
+   },
+   "region": "SEAO",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "fr": {
+   "name": {
+    "en": "France"
+   },
+   "region": "FRBX",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 60
+  },
+  "ga": {
+   "name": {
+    "en": "Gabon"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 2
+  },
+  "gb": {
+   "name": {
+    "en": "United Kingdom"
+   },
+   "region": "BRIT",
+   "tales": 4,
+   "in": {
+    "free": 4,
+    "parts": {}
+   },
+   "coming": 62
+  },
+  "gd": {
+   "name": {
+    "en": "GD"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "ge": {
+   "name": {
+    "en": "Georgia"
+   },
+   "region": "EAST",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 45
+  },
+  "gh": {
+   "name": {
+    "en": "Ghana"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 21
+  },
+  "gl": {
+   "name": {
+    "en": "Greenland"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 11
+  },
+  "gr": {
+   "name": {
+    "en": "Greece"
+   },
+   "region": "MEDI",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 313
+  },
+  "gt": {
+   "name": {
+    "en": "Guatemala"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 3
+  },
+  "gu": {
+   "name": {
+    "en": "GU"
+   },
+   "region": "SEAO",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "gy": {
+   "name": {
+    "en": "Guyana"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "hn": {
+   "name": {
+    "en": "Honduras"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "hr": {
+   "name": {
+    "en": "Croatia"
+   },
+   "region": "MEDI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "ht": {
+   "name": {
+    "en": "Haiti"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "hu": {
+   "name": {
+    "en": "Hungary"
+   },
+   "region": "EAST",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 6
+  },
+  "ie": {
+   "name": {
+    "en": "Ireland"
+   },
+   "region": "BRIT",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 8
+  },
+  "im": {
+   "name": {
+    "en": "IM"
+   },
+   "region": "BRIT",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 36
+  },
+  "in": {
+   "name": {
+    "en": "India"
+   },
+   "region": "INDI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 170
+  },
+  "iq": {
+   "name": {
+    "en": "Iraq"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 14
+  },
+  "ir": {
+   "name": {
+    "en": "Iran"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 13
+  },
+  "is": {
+   "name": {
+    "en": "Iceland"
+   },
+   "region": "NORD",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 6
+  },
+  "it": {
+   "name": {
+    "en": "Italy"
+   },
+   "region": "MEDI",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 18
+  },
+  "jm": {
+   "name": {
+    "en": "Jamaica"
+   },
+   "region": "NAMC",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 122
+  },
+  "jp": {
+   "name": {
+    "en": "Japan"
+   },
+   "region": "EASI",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 10
+  },
+  "ke": {
+   "name": {
+    "en": "Kenya"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "kg": {
+   "name": {
+    "en": "Kyrgyzstan"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 2
+  },
+  "kr": {
+   "name": {
+    "en": "South Korea"
+   },
+   "region": "EASI",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 72
+  },
+  "kz": {
+   "name": {
+    "en": "Kazakhstan"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 6
+  },
+  "la": {
+   "name": {
+    "en": "Laos"
+   },
+   "region": "SEAO",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 41
+  },
+  "lk": {
+   "name": {
+    "en": "Sri Lanka"
+   },
+   "region": "INDI",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 175
+  },
+  "ls": {
+   "name": {
+    "en": "Lesotho"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 2
+  },
+  "mg": {
+   "name": {
+    "en": "Madagascar"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "mm": {
+   "name": {
+    "en": "Myanmar"
+   },
+   "region": "SEAO",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 14
+  },
+  "mn": {
+   "name": {
+    "en": "Mongolia"
+   },
+   "region": "EASI",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "mx": {
+   "name": {
+    "en": "Mexico"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 16
+  },
+  "my": {
+   "name": {
+    "en": "Malaysia"
+   },
+   "region": "SEAO",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 24
+  },
+  "mz": {
+   "name": {
+    "en": "Mozambique"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "na": {
+   "name": {
+    "en": "Namibia"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "ng": {
+   "name": {
+    "en": "Nigeria"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 25
+  },
+  "nl": {
+   "name": {
+    "en": "Netherlands"
+   },
+   "region": "FRBX",
+   "tales": 3,
+   "in": {
+    "free": 3,
+    "parts": {}
+   },
+   "coming": 20
+  },
+  "no": {
+   "name": {
+    "en": "Norway"
+   },
+   "region": "NORD",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 12
+  },
+  "pe": {
+   "name": {
+    "en": "Peru"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 2
+  },
+  "ph": {
+   "name": {
+    "en": "Philippines"
+   },
+   "region": "SEAO",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 133
+  },
+  "pk": {
+   "name": {
+    "en": "Pakistan"
+   },
+   "region": "INDI",
+   "tales": 5,
+   "in": {
+    "free": 5,
+    "parts": {}
+   },
+   "coming": 16
+  },
+  "pl": {
+   "name": {
+    "en": "Poland"
+   },
+   "region": "EAST",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 7
+  },
+  "pr": {
+   "name": {
+    "en": "Puerto Rico"
+   },
+   "region": "NAMC",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 6
+  },
+  "pt": {
+   "name": {
+    "en": "Portugal"
+   },
+   "region": "IBER",
+   "tales": 5,
+   "in": {
+    "free": 5,
+    "parts": {}
+   },
+   "coming": 40
+  },
+  "py": {
+   "name": {
+    "en": "Paraguay"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "ro": {
+   "name": {
+    "en": "Romania"
+   },
+   "region": "MEDI",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 121
+  },
+  "rs": {
+   "name": {
+    "en": "Serbia"
+   },
+   "region": "MEDI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 26
+  },
+  "ru": {
+   "name": {
+    "en": "Russia"
+   },
+   "region": "EAST",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 30
+  },
+  "sa": {
+   "name": {
+    "en": "Saudi Arabia"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "se": {
+   "name": {
+    "en": "Sweden"
+   },
+   "region": "NORD",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 5
+  },
+  "si": {
+   "name": {
+    "en": "Slovenia"
+   },
+   "region": "MEDI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "sk": {
+   "name": {
+    "en": "Slovakia"
+   },
+   "region": "CZSK",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "sl": {
+   "name": {
+    "en": "Sierra Leone"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 38
+  },
+  "tj": {
+   "name": {
+    "en": "Tajikistan"
+   },
+   "region": "MEAS",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  },
+  "tm": {
+   "name": {
+    "en": "Turkmenistan"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "tn": {
+   "name": {
+    "en": "Tunisia"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 2
+  },
+  "tr": {
+   "name": {
+    "en": "Turkey"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 56
+  },
+  "tz": {
+   "name": {
+    "en": "Tanzania"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 14
+  },
+  "ua": {
+   "name": {
+    "en": "Ukraine"
+   },
+   "region": "EAST",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 20
+  },
+  "us": {
+   "name": {
+    "en": "United States of America"
+   },
+   "region": "NAMC",
+   "tales": 2,
+   "in": {
+    "free": 2,
+    "parts": {}
+   },
+   "coming": 89
+  },
+  "uy": {
+   "name": {
+    "en": "Uruguay"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "ve": {
+   "name": {
+    "en": "Venezuela"
+   },
+   "region": "SAME",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 3
+  },
+  "ye": {
+   "name": {
+    "en": "Yemen"
+   },
+   "region": "MEAS",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 0
+  },
+  "za": {
+   "name": {
+    "en": "South Africa"
+   },
+   "region": "AFRI",
+   "tales": 1,
+   "in": {
+    "free": 1,
+    "parts": {}
+   },
+   "coming": 46
+  },
+  "zm": {
+   "name": {
+    "en": "Zambia"
+   },
+   "region": "AFRI",
+   "tales": 0,
+   "in": {
+    "free": 0,
+    "parts": {}
+   },
+   "coming": 1
+  }
+ }
+}
