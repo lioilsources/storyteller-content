@@ -19,13 +19,32 @@
     "SK"
    ],
    "free": {
-    "version": 1,
-    "size": 8893680,
-    "sha256": "b51ee34e8d263accb93ce744ec7553eb1c4363e372b8e7414e19249e42f6d41d",
+    "version": 2,
+    "size": 8911622,
+    "sha256": "eb68667ab4f0dc5d418a3d9e90b8aa0302118458ac807bf95f5d22c2e47ee73d",
     "tales": 10,
-    "file": "region-czsk-free-v1.zip"
+    "file": "region-czsk-free-v2.zip"
    },
-   "parts": []
+   "parts": [
+    {
+     "n": 1,
+     "product_id": "pack_czsk_1",
+     "version": 1,
+     "size": 64993226,
+     "sha256": "d52f7c571ca55adab46fbe4d256da18e0cc22bfe933e4e4ee253c88fcf972f62",
+     "tales": 50,
+     "file": "czsk-p1.zip"
+    },
+    {
+     "n": 2,
+     "product_id": "pack_czsk_2",
+     "version": 1,
+     "size": 61104920,
+     "sha256": "b2790050dc0b5764d87c09728c4ec5778723bcfe30921bb9bfb95de4cba04a34",
+     "tales": 50,
+     "file": "czsk-p2.zip"
+    }
+   ]
   },
   "dach": {
    "name": {
@@ -620,12 +639,15 @@
     "en": "Czechia"
    },
    "region": "CZSK",
-   "tales": 9,
+   "tales": 109,
    "in": {
     "free": 9,
-    "parts": {}
+    "parts": {
+     "1": 50,
+     "2": 50
+    }
    },
-   "coming": 118
+   "coming": 18
   },
   "de": {
    "name": {
